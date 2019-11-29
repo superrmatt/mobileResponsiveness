@@ -6,22 +6,53 @@ html {
 body {
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
+    display: block;
 }
 h1 {
     color: #343a40;
 }
 
-#portfolioA, #portfolioB, #portfolioC, #portfolioD, #portfolioE {
+.portfolio {
     width: 300px;
     height: auto;
 }
 
-#descriptionA, #descriptionB, #descriptionC, #descriptionD, #descriptionE{
+.description{
     background-color: #343a40;
     color: white;
     padding-top: 5px;
     margin-bottom: 10px;
     text-align: center;
     width: 300px;
+}
+
+.meImg{
+    
+}
+.meDescription {
+    float: right;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .port, .description, .portfolio, .col-md-4, .meImg, .meDescription{
+        width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    
 }

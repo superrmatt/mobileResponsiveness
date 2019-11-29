@@ -27,14 +27,6 @@ h1 {
     width: 300px;
 }
 
-.meImg{
-    
-}
-.meDescription {
-    float: right;
-}
-
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .port, .description, .portfolio, .col-md-4, .meImg, .meDescription{
@@ -44,15 +36,32 @@ h1 {
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-
+    .port, .description, .portfolio, .col-md-4, .meImg, .meDescription{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-    
+    .port, .description, .portfolio, .col-md-4, .meImg, .meDescription{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
-    
+    .port, .description, .portfolio, .col-md-4, .meImg, .meDescription{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+.portfolio:hover {
+    opacity: 50%;
+}
+
+.portfolio:active {
+    margin: 10px;
 }
